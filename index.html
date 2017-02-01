@@ -1,0 +1,113 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Minha Coleta - Estamos chegando! o/</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png">
+
+  <meta name="description" content="Minha Coleta, a Coleta Seletiva de Resíduos em sua residência.">
+  <meta name="keywords" content="Coleta Seletiva, Resíduos, Reciclagem, Cooperativa, Catador, Startup, Aplicativo, Meio Ambiente, Gestão de Resíduos" />
+
+  <meta name="google-site-verification" content="blxKhq7djK-QgRrSF2TXayE9VxWceAjkgq8wcneLPpk" />
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/fontello.css" rel="stylesheet" >
+  <link href="css/animation.css" rel="stylesheet" >
+
+  <!--[if lt IE 9]>
+  <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div id="wrapper">
+    <div id="main">
+      <div class="container">
+        <div class="row countdown">
+          <div class="col-md-12">
+            <div id="logo"><img src="img/icon/logo-128.png" width="128" height="128" alt="" data-retina="true"></div>
+            <h2>Minha Coleta</h2>
+          </div>
+          <div class="col-md-12">
+            <h1>Estamos chegando! <i class="icon-smile"></i></h1>
+            <h2>Você não vai mais poder dizer que não separa seu lixo para reciclagem por falta de lugar para levar.</h2>
+            <h2>Em breve, nós vamos coletar na sua <strong>casa</strong>!</h2>
+          </div>
+          <div id="countdown_wp">
+            <div class="container_count"><div id="days">00</div>dias</div>
+            <div class="container_count"><div id="hours">00</div>horas</div>
+            <div class="container_count"><div id="minutes">00</div>minutos</div>
+            <div class="container_count last"><div id="seconds">00</div>segundos</div>
+          </div>
+        </div>
+
+        <div id="social_footer">
+          <h2>
+            <a href="mailto:contato@minhacoleta.com">contato@minhacoleta.com</a>
+          </h2>
+          <ul>
+            <li><a href="https://fb.me/MinhaColeta" target="_blank"><i class="icon-facebook"></i></a></li>
+            <li><a href="https://twitter.com/MinhaColeta" target="_blank"><i class="icon-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/minha-coleta" target="_blank"><i class="icon-linkedin"></i></a></li>
+          </ul>
+          <p>Minha Coleta © 2016</p>
+        </div>
+      </div><!-- End container -->
+    </div><!-- End main -->
+
+    <div id="slides">
+      <ul class="slides-container">
+        <li><img src="img/bg1.jpg" alt="background image"></li>
+        <li><img src="img/bg2.jpg" alt="background image"></li>
+        <li><img src="img/bg3.jpg" alt="background image"></li>
+      </ul>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/superslides/0.6.2/jquery.superslides.min.js"></script>
+    <script src="http://playground.benbarnett.net/jquery-animate-enhanced/scripts/src/jquery.animate-enhanced.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/2.1.0/retina.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <script  type="text/javascript">
+      $('#slides').superslides({
+        play: 6000,
+        pagination: false,
+        animation_speed: 800,
+        animation: 'fade'
+      });
+    </script>
+
+    <!-- GoogleAnalytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      if (location.hostname !== 'localhost') {
+        ga('create', 'UA-86938639-1', 'auto');
+        ga('send', {
+          hitType: 'pageview',
+          page: location.hostname
+        });
+      } else {
+        console.debug('Google Analytcs disabled for localhost domain.');
+      }
+    </script>
+  </body>
+</html>
